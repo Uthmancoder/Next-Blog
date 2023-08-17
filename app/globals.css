@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light{
+  background-color: rgb(245, 244, 244);
+  color: #111;
+}
+.dark{
+  background-color: #111;
+  color: white;
+}
+.title{
+  background: linear-gradient(to bottom, #194c33, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.theme{
+  transition: 1s all ease;
+}
+.image{
+  object-fit: cover;
+  filter: grayscale(100);
+}
+/* .animated{
+  animation : move 3s infinite ease alternate;
+}
+@keyframes move{
+  from{
+    transform:  translateY(-15px);
+  }
+  to{
+  transform: translateY(0px) scale(1.03);
+  }
+} */
+
