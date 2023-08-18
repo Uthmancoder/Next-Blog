@@ -51,8 +51,8 @@ const NavBar = () => {
 
   return (
     <div className="flex p-5  max-w-[1200px] mx-auto justify-between h-20 w-full ">
-      <Link href="/" className="font-extrabold  text-xl text-[#00df9a] ">
-        Next
+      <Link href="/" className="font-extrabold  text-xl text-green-800 ">
+         <span className="text-3xl text-yellow-800">X</span>Blog
       </Link>
 
       <div className="hidden md:block  ">
@@ -83,9 +83,9 @@ const NavBar = () => {
             : " fixed grid left-[-60%]"
         }
       >
-        <Link href="/" className="font-extrabold  text-xl m-5 text-[#00df9a] ">
-          Next
-        </Link>
+         <Link href="/" className="font-extrabold m-5  text-xl text-green-800 ">
+         <span className="text-3xl text-yellow-800">X</span>Blog
+      </Link>
         {links.map((link) => (
           <Link
             className="p-4   uppercase  border-b  border-gray-500"

@@ -28,6 +28,7 @@ const page = () => {
 
   return (
     <div>
+      {/* hav issues with google oauth screen */}
       <h1 className="text-white font-bold text-3xl">
         <form
           action=""
@@ -59,6 +60,8 @@ const page = () => {
             Log In
           </button>
         </form>
+
+
         {/* <button className='border border-x-gray-300 rounded-2xl text-xs p-2 shadow-2' onClick={()=> signIn("google")}>Signin with google </button> */}
       </h1>
     </div>

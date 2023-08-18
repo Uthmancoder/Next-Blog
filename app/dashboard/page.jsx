@@ -7,6 +7,7 @@ import Image from "next/image";
 
 const Page = () => {
   const session = useSession();
+  console.log(session);
 
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
   const { data, mutate, error, isLoading } = useSWR(
