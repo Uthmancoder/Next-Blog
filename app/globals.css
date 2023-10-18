@@ -4,10 +4,10 @@
 
 .light{
   background-color: rgb(251, 248, 248);
-  color: #111;
+  color: #142030;
 }
 .dark{
-  background-color: #111;
+  background-color: #142030;
   color: white;
 }
 .title{
@@ -22,11 +22,25 @@
   object-fit: cover;
   filter: grayscale(100);
 }
+.login{
+  background-color: rgb(#FE5B73, #FE787B, #FE9484);
+  padding: 10px 30px;
+  border-radius: 20px;
+
+}
+Link a:active{
+  background-color: rgb(#FE5B73, #FE787B, #FE9484);
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+/* p-4 bg-gradient-to-r from-[#FE5B73] via-[#FE787B] to-[#FE9484] py-2 px-8 rounded-3xl ml-3 hover:bg-gradient-to-r transition-all ease-in-out 2s hover:from-[#FE9484] hover:via-[#FE787B] hover:to-[#FE5B73] */
+
 
 /* .animated{
   animation : move 3s infinite ease alternate;
-}
-@keyframes move{
+} */
+/* @keyframes move{
   from{
     transform:  translateY(-15px);
   }
